@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Freight | Uber Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .freight-hero {
+            background-image: url('https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Navigation (Same as index.html) -->
+    <nav class="bg-black text-white p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <a href="index.html" class="text-2xl font-bold">UBER</a>
+                <div class="hidden md:flex space-x-6">
+                    <a href="ride.html" class="hover:text-gray-300">Ride</a>
+                    <a href="eats.html" class="hover:text-gray-300">Eats</a>
+                    <a href="freight.html" class="hover:text-gray-300">Freight</a>
+                    <a href="about.html" class="hover:text-gray-300">About</a>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="#" class="hover:text-gray-300"><i class="fas fa-globe"></i> EN</a>
+                <a href="#" class="hover:text-gray-300"><i class="fas fa-question-circle"></i> Help</a>
+                <a href="login.html" class="hover:text-gray-300">Log in</a>
+                <a href="signup.html" class="bg-white text-black px-4 py-2 rounded-full hover:bg-gray-200">Sign up</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Freight Hero Section -->
+    <section class="freight-hero h-96 flex items-center text-white">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl font-bold mb-4">Powering the future of logistics</h1>
+            <p class="text-xl mb-8">The smarter way to move freight. Get instant quotes, book loads, and track shipments in real time.</p>
+            <div class="flex space-x-4">
+                <button class="bg-white text-black px-6 py-3 rounded-full hover:bg-gray-200">Get a Quote</button>
+                <button class="border border-white text-white px-6 py-3 rounded-full hover:bg-white hover:text-black">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Freight Solutions Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Freight solutions for every need</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-100 p-8 rounded-lg">
+                    <i class="fas fa-boxes text-4xl mb-4 text-black"></i>
+                    <h3 class="text-xl font-bold mb-4">Full Truckload</h3>
+                    <p class="text-gray-600">Ship large quantities of goods with dedicated truck capacity for your entire shipment.</p>
+                </div>
+                <div class="bg-gray-100 p-8 rounded-lg">
+                    <i class="fas fa-pallet text-4xl mb-4 text-black"></i>
+                    <h3 class="text-xl font-bold mb-4">Less Than Truckload</h3>
+                    <p class="text-gray-600">Ship smaller freight that doesn't require a full truck, sharing space with other shipments.</p>
+                </div>
+                <div class="bg-gray-100 p-8 rounded-lg">
+                    <i class="fas fa-temperature-low text-4xl mb-4 text-black"></i>
+                    <h3 class="text-xl font-bold mb-4">Refrigerated</h3>
+                    <p class="text-gray-600">Temperature-controlled shipping for perishable goods and sensitive cargo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Why choose Uber Freight</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow">
+                    <i class="fas fa-bolt text-4xl mb-4 text-black"></i>
+                    <h3 class="text-xl font-bold mb-4">Instant Pricing</h3>
+                    <p class="text-gray-600">Get real-time quotes in seconds, not days. No more waiting for brokers to call you back.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow">
+                    <i class="fas fa-map-marked-alt text-4xl mb-4 text-black"></i>
+                    <h3 class="text-xl font-bold mb-4">Real-Time Tracking</h3>
+                    <p class="text-gray-600">Monitor your shipments from pickup to delivery with our advanced tracking technology.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow">
+                    <i class="fas fa-hand-holding-usd text-4xl mb-4 text-black"></i>
+                    <h3 class="text-xl font-bold mb-4">Cost Savings</h3>
+                    <p class="text-gray-600">Our technology eliminates inefficiencies, saving you up to 15% on shipping costs.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow">
+                    <i class="fas fa-shield-alt text-4xl mb-4 text-black"></i>
+                    <h3 class="text-xl font-bold mb-4">Reliable Capacity</h3>
+                    <p class="text-gray-600">Access to a network of over 50,000 carriers ensures your freight moves when you need it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">How Uber Freight works</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">1</div>
+                    <h3 class="text-xl font-bold mb-2">Get a Quote</h3>
+                    <p class="text-gray-600">Enter your shipment details and receive an instant price quote.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">2</div>
+                    <h3 class="text-xl font-bold mb-2">Book Your Shipment</h3>
+                    <p class="text-gray-600">Confirm your booking with just a few clicks.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">3</div>
+                    <h3 class="text-xl font-bold mb-2">Track in Real-Time</h3>
+                    <p class="text-gray-600">Monitor your shipment from pickup to delivery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-black text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Ready to simplify your freight?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Join thousands of businesses that trust Uber Freight for their shipping needs.</p>
+            <button class="bg-white text-black px-8 py-3 rounded-full hover:bg-gray-200">Get Started</button>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index.html) -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Company</h3>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="hover:text-gray-300">About us</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Our offerings</a></li>
+                        <li><a href="blog.html" class="hover:text-gray-300">Newsroom</a></li>
+                        <li><a href="careers.html" class="hover:text-gray-300">Careers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Products</h3>
+                    <ul class="space-y-2">
+                        <li><a href="ride.html" class="hover:text-gray-300">Ride</a></li>
+                        <li><a href="eats.html" class="hover:text-gray-300">Eats</a></li>
+                        <li><a href="freight.html" class="hover:text-gray-300">Freight</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Support</h3>
+                    <ul class="space-y-2">
+                        <li><a href="contact.html" class="hover:text-gray-300">Contact</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Help</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Safety</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-gray-300"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="hover:text-gray-300"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-8">
+                <p>© 2023 Uber Clone. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
